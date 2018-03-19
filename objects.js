@@ -1,5 +1,5 @@
 var playlist = {dark:"god's plan"}
-function updatePlaylist(obj,artist,song){
-  obj.artist = song
+function updatePlaylist(obj,artistName,songTitle){
+  obj[artistName] = songTitle
   return obj
 }
